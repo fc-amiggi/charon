@@ -27,12 +27,12 @@ Three takeover attempts failed. Confluent built an alternative — zero adoption
 
 ```diff
 - "kafkajs": "^2.2.4"
-+ "@ousia/kafkajs": "^3.0.0"
++ "@ousiaresearch/kafkajs": "^3.0.0"
 ```
 
 ```diff
 - const { Kafka } = require('kafkajs')
-+ const { Kafka } = require('@ousia/kafkajs')
++ const { Kafka } = require('@ousiaresearch/kafkajs')
 ```
 
 **That's it.** No code changes. No API changes. Same protocol, same behavior. Now with a maintainer.
